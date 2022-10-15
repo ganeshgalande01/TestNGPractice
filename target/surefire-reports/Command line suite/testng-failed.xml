@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="org.Testngintro.TestGoogle">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="verifygoogleTitle"/>
+          <include name="launchGoogle"/>
+        </methods>
+      </class> <!-- org.Testngintro.TestGoogle -->
+      <class name="org.Testngintro.TestFacebook">
+        <methods>
+          <include name="verifyTitle"/>
+          <include name="launchFacebook"/>
+        </methods>
+      </class> <!-- org.Testngintro.TestFacebook -->
+      <class name="org.Testngintro.TestIntro">
+        <methods>
+          <include name="testGoogle"/>
+          <include name="testFacbook"/>
+        </methods>
+      </class> <!-- org.Testngintro.TestIntro -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

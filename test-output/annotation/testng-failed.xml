@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [annotation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="annotation test(failed)">
+    <classes>
+      <class name="org.annotations.BeforeSuiteAnnotation">
+        <methods>
+          <include name="verifyGoogleTitle"/>
+          <include name="tearDown"/>
+          <include name="inisilizeBrowser"/>
+        </methods>
+      </class> <!-- org.annotations.BeforeSuiteAnnotation -->
+    </classes>
+  </test> <!-- annotation test(failed) -->
+</suite> <!-- Failed suite [annotation] -->
